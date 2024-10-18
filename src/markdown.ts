@@ -172,7 +172,7 @@ function formatReferences(
 function formatName(name = "") {
   return name
     .split(" ")
-    .map((p) => upperFirst(p.trim()))
+    .map((p) => p.trim())
     .join(" ");
 }
 
