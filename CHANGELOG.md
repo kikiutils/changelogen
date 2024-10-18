@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.6.0
+
+[compare changes](https://github.com/unjs/changelogen/compare/v0.5.7...v0.6.0)
+
+### 🚀 Enhancements
+
+- Update jiti to v2 ([6e85d32](https://github.com/unjs/changelogen/commit/6e85d32))
+- Add check for breaking changes in commit body ([#228](https://github.com/unjs/changelogen/pull/228))
+
+### 🩹 Fixes
+
+- Use https proto for author's github link ([#225](https://github.com/unjs/changelogen/pull/225))
+- Use https proto for author's github link in tests ([#226](https://github.com/unjs/changelogen/pull/226))
+
+### 💅 Refactors
+
+- Remove uppercase conversion for author name ([fd15341](https://github.com/unjs/changelogen/commit/fd15341))
+- Remove email from Contributors list ([d04d7db](https://github.com/unjs/changelogen/commit/d04d7db))
+
+### 🏡 Chore
+
+- Lint ([031cfd6](https://github.com/unjs/changelogen/commit/031cfd6))
+- Change package name ([cdafd4e](https://github.com/unjs/changelogen/commit/cdafd4e))
+- Remove extra spaces after breaking change ⚠️ symbol ([1ac20a9](https://github.com/unjs/changelogen/commit/1ac20a9))
+
+### ✅ Tests
+
+- Add tests for parsing co-authors from commit body ([#229](https://github.com/unjs/changelogen/pull/229))
+
+### ❤️ Contributors
+
+- kiki-kanri
+- Jan-Henrik Damaschke
+- Pooya Parsa ([@pi0](https://github.com/pi0))
+- Damian Głowala ([@DamianGlowala](https://github.com/DamianGlowala))
+
 ## v0.5.7
 
 [compare changes](https://github.com/unjs/changelogen/compare/v0.5.6...v0.5.7)
