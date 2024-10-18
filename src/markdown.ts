@@ -91,14 +91,16 @@ export async function generateMarkDown(
       "### " + "❤️ Contributors",
       "",
       ...authors.map((i) => {
-        const _email = [...i.email].find(
-          (e) => !e.includes("noreply.github.com")
-        );
-        const email = _email ? `<${_email}>` : "";
+        // TODO: use config control
+        // const _email = [...i.email].find(
+        //   (e) => !e.includes("noreply.github.com")
+        // );
+        // const email = _email ? `<${_email}>` : "";
+        const email = "";
         const github = i.github
           ? `([@${i.github}](https://github.com/${i.github}))`
           : "";
-        return `- ${i.name} ${github || email}`;
+        return `- ${i.name} ${github || email}`.trim();
       })
     );
   }
