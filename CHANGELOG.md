@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.7.0
+
+[compare changes](https://github.com/unjs/changelogen/compare/v0.6.0...v0.7.0)
+
+### 💅 Refactors
+
+- **version:** ⚠️ Update increment logic for 0.x.x versioning ([c432e25](https://github.com/unjs/changelogen/commit/c432e25))
+
+#### ⚠️ Breaking Changes
+
+- **version:** ⚠️ Update increment logic for 0.x.x versioning ([c432e25](https://github.com/unjs/changelogen/commit/c432e25))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.6.0
 
 [compare changes](https://github.com/unjs/changelogen/compare/v0.5.7...v0.6.0)
