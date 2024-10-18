@@ -1,5 +1,5 @@
 {
-  "name": "changelogen",
+  "name": "@kikiutils/changelogen",
   "version": "0.5.7",
   "description": "Generate Beautiful Changelogs using Conventional Commits",
   "repository": "unjs/changelogen",
