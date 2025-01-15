@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.7.1
+
+[compare changes](https://github.com/unjs/changelogen/compare/v0.7.0...v0.7.1)
+
+### 🏡 Chore
+
+- Upgrade dependencies ([9927f1e](https://github.com/unjs/changelogen/commit/9927f1e))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.7.0
 
 [compare changes](https://github.com/unjs/changelogen/compare/v0.6.0...v0.7.0)
