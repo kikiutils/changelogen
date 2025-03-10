@@ -2,6 +2,66 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.8.0
+
+[compare changes](https://github.com/kikiutils/changelogen/compare/v0.7.1...v0.8.0)
+
+### 🚀 Enhancements
+
+- Hide author email address via flag ([#247](https://github.com/kikiutils/changelogen/pull/247))
+- Add `noAuthors` option ([#183](https://github.com/kikiutils/changelogen/pull/183))
+
+### 🩹 Fixes
+
+- Release version regex supporting pre versions ([#259](https://github.com/kikiutils/changelogen/pull/259))
+- Use correct compare changes URL for Bitbucket ([#257](https://github.com/kikiutils/changelogen/pull/257))
+- Use tag template for version title and compare change link ([#255](https://github.com/kikiutils/changelogen/pull/255))
+- Render usernames in github changelog ([#265](https://github.com/kikiutils/changelogen/pull/265))
+- Pass `cwd` in more places before running commands ([#266](https://github.com/kikiutils/changelogen/pull/266))
+- Resolve test errors ([e5cc8d9](https://github.com/kikiutils/changelogen/commit/e5cc8d9))
+- Resolve issue with `hideAuthorEmail` command argument not working ([3f76cbe](https://github.com/kikiutils/changelogen/commit/3f76cbe))
+
+### 💅 Refactors
+
+- Use consola for colors ([49e0401](https://github.com/kikiutils/changelogen/commit/49e0401))
+- Use confbox for yaml parsing ([19e940c](https://github.com/kikiutils/changelogen/commit/19e940c))
+
+### 📦 Build
+
+- ⚠️ Esm-only dist ([4a22de6](https://github.com/kikiutils/changelogen/commit/4a22de6))
+
+### 🏡 Chore
+
+- Update deps ([b184f23](https://github.com/kikiutils/changelogen/commit/b184f23))
+- Update ci ([8662c4e](https://github.com/kikiutils/changelogen/commit/8662c4e))
+- Update esm-only deps ([0d5e31d](https://github.com/kikiutils/changelogen/commit/0d5e31d))
+- **release:** V0.6.0 ([7c20c8d](https://github.com/kikiutils/changelogen/commit/7c20c8d))
+- Update deps ([f728b52](https://github.com/kikiutils/changelogen/commit/f728b52))
+- Update tsconfig ([e5dced7](https://github.com/kikiutils/changelogen/commit/e5dced7))
+- **release:** V0.6.1 ([17ce7c7](https://github.com/kikiutils/changelogen/commit/17ce7c7))
+- Upgrade dependencies ([aae4fc0](https://github.com/kikiutils/changelogen/commit/aae4fc0))
+- Update pnpm version and set `pnpm.onlyBuiltDependencies` ([357a2db](https://github.com/kikiutils/changelogen/commit/357a2db))
+- Update some author and repository fields in package.json ([c14e37f](https://github.com/kikiutils/changelogen/commit/c14e37f))
+- Set hideAuthorEmail arg in changelog command ([2669d8c](https://github.com/kikiutils/changelogen/commit/2669d8c))
+
+### ✅ Tests
+
+- Update snapshot ([ec2618f](https://github.com/kikiutils/changelogen/commit/ec2618f))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Esm-only dist ([4a22de6](https://github.com/kikiutils/changelogen/commit/4a22de6))
+
+### ❤️ Contributors
+
+- kiki-kanri
+- Pooya Parsa ([@pi0](https://github.com/pi0))
+- Daniel Roe ([@danielroe](https://github.com/danielroe))
+- Klein Petr ([@kleinpetr](https://github.com/kleinpetr))
+- Jasper Zonneveld ([@JaZo](https://github.com/JaZo))
+- Thorsten Seyschab ([@toddeTV](https://github.com/toddeTV))
+- Philipp Kief ([@PKief](https://github.com/PKief))
+
 ## v0.7.1
 
 [compare changes](https://github.com/unjs/changelogen/compare/v0.7.0...v0.7.1)
