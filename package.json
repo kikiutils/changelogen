@@ -2,7 +2,18 @@
   "name": "@kikiutils/changelogen",
   "version": "0.7.1",
   "description": "Generate Beautiful Changelogs using Conventional Commits",
-  "repository": "unjs/changelogen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kikiutils/changelogen.git"
+  },
+  "contributors": [
+    {
+      "name": "unjs"
+    },
+    {
+      "name": "kiki-kanri"
+    }
+  ],
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
