@@ -25,10 +25,11 @@ export default async function defaultMain(args: Argv) {
     to: args.to,
     output: args.output,
     newVersion: typeof args.r === "string" ? args.r : undefined,
+    noAuthors: args.noAuthors,
   });
 
   if (args.clean) {
-    const dirty = await getCurrentGitStatus();
+    const dirty = await getCurrentGitStatus(cwd);
     if (dirty) {
       consola.error("Working directory is not clean.");
       process.exit(1);
@@ -38,7 +39,7 @@ export default async function defaultMain(args: Argv) {
   const logger = consola.create({ stdout: process.stderr });
   logger.info(`Generating changelog for ${config.from || ""}...${config.to}`);
 
-  const rawCommits = await getGitDiff(config.from, config.to);
+  const rawCommits = await getGitDiff(config.from, config.to, config.cwd);
 
   // Parse commits as conventional commits
   const commits = parseCommits(rawCommits, config)

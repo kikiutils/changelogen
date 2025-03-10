@@ -26,7 +26,9 @@ export interface ChangelogConfig {
     tagMessage?: string;
     tagBody?: string;
   };
+  noAuthors: boolean;
   excludeAuthors: string[];
+  hideAuthorEmail?: boolean;
 }
 
 export type ResolvedChangelogConfig = Omit<ChangelogConfig, "repo"> & {
@@ -72,6 +74,7 @@ const getDefaultConfig = () =>
       tagBody: "v{{newVersion}}",
     },
     excludeAuthors: [],
+    noAuthors: false,
   };
 
 export async function loadChangelogConfig(
@@ -99,11 +102,11 @@ export async function resolveChangelogConfig(
   cwd: string
 ) {
   if (!config.from) {
-    config.from = await getLastGitTag();
+    config.from = await getLastGitTag(cwd);
   }
 
   if (!config.to) {
-    config.to = await getCurrentGitRef();
+    config.to = await getCurrentGitRef(cwd);
   }
 
   if (config.output) {

@@ -15,7 +15,9 @@ export async function generateMarkDown(
   const breakingChanges = [];
 
   // Version Title
-  const v = config.newVersion && `v${config.newVersion}`;
+  const v =
+    config.newVersion &&
+    config.templates.tagBody.replaceAll("{{newVersion}}", config.newVersion);
   markdown.push("", "## " + (v || `${config.from || ""}...${config.to}`), "");
 
   if (config.repo && config.from) {
@@ -85,18 +87,17 @@ export async function generateMarkDown(
 
   const authors = [..._authors.entries()].map((e) => ({ name: e[0], ...e[1] }));
 
-  if (authors.length > 0) {
+  if (authors.length > 0 && !config.noAuthors) {
     markdown.push(
       "",
       "### " + "❤️ Contributors",
       "",
       ...authors.map((i) => {
-        // TODO: use config control
-        // const _email = [...i.email].find(
-        //   (e) => !e.includes("noreply.github.com")
-        // );
-        // const email = _email ? `<${_email}>` : "";
-        const email = "";
+        const _email = [...i.email].find(
+          (e) => !e.includes("noreply.github.com")
+        );
+        const email =
+          config.hideAuthorEmail !== true && _email ? `<${_email}>` : "";
         const github = i.github
           ? `([@${i.github}](https://github.com/${i.github}))`
           : "";
@@ -187,5 +188,7 @@ function groupBy(items: any[], key: string) {
   return groups;
 }
 
-const CHANGELOG_RELEASE_HEAD_RE = /^#{2,}\s+.*(v?(\d+\.\d+\.\d+)).*$/gm;
-const VERSION_RE = /^v?(\d+\.\d+\.\d+)$/;
+const CHANGELOG_RELEASE_HEAD_RE =
+  /^#{2,}\s+.*(v?(\d+\.\d+\.\d+(-[a-zA-Z0-9.]+)?)).*$/gm;
+
+const VERSION_RE = /^v?(\d+\.\d+\.\d+(-[a-zA-Z0-9.]+)?)$/;
