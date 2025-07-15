@@ -8,16 +8,16 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🚀 Enhancements
 
-- Hide author email address via flag ([#247](https://github.com/kikiutils/changelogen/pull/247))
-- Add `noAuthors` option ([#183](https://github.com/kikiutils/changelogen/pull/183))
+- Hide author email address via flag ([#247](https://github.com/unjs/changelogen/pull/247))
+- Add `noAuthors` option ([#183](https://github.com/unjs/changelogen/pull/183))
 
 ### 🩹 Fixes
 
-- Release version regex supporting pre versions ([#259](https://github.com/kikiutils/changelogen/pull/259))
-- Use correct compare changes URL for Bitbucket ([#257](https://github.com/kikiutils/changelogen/pull/257))
-- Use tag template for version title and compare change link ([#255](https://github.com/kikiutils/changelogen/pull/255))
-- Render usernames in github changelog ([#265](https://github.com/kikiutils/changelogen/pull/265))
-- Pass `cwd` in more places before running commands ([#266](https://github.com/kikiutils/changelogen/pull/266))
+- Release version regex supporting pre versions ([#259](https://github.com/unjs/changelogen/pull/259))
+- Use correct compare changes URL for Bitbucket ([#257](https://github.com/unjs/changelogen/pull/257))
+- Use tag template for version title and compare change link ([#255](https://github.com/unjs/changelogen/pull/255))
+- Render usernames in github changelog ([#265](https://github.com/unjs/changelogen/pull/265))
+- Pass `cwd` in more places before running commands ([#266](https://github.com/unjs/changelogen/pull/266))
 - Resolve test errors ([e5cc8d9](https://github.com/kikiutils/changelogen/commit/e5cc8d9))
 - Resolve issue with `hideAuthorEmail` command argument not working ([3f76cbe](https://github.com/kikiutils/changelogen/commit/3f76cbe))
 
