@@ -8,19 +8,19 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 🩹 Fixes
 
-- **cli:** Accept hideAuthorEmail arg ([#275](https://github.com/kikiutils/changelogen/pull/275))
+- **cli:** Accept hideAuthorEmail arg ([#275](https://github.com/unjs/changelogen/pull/275))
 
 ### 📖 Documentation
 
-- Add note about version number interpretation ([#272](https://github.com/kikiutils/changelogen/pull/272))
+- Add note about version number interpretation ([#272](https://github.com/unjs/changelogen/pull/272))
 
 ### 🌊 Types
 
-- config.types accept boolean value ([#278](https://github.com/kikiutils/changelogen/pull/278))
+- config.types accept boolean value ([#278](https://github.com/unjs/changelogen/pull/278))
 
 ### 🏡 Chore
 
-- **readme:** Fix typo ([#270](https://github.com/kikiutils/changelogen/pull/270))
+- **readme:** Fix typo ([#270](https://github.com/unjs/changelogen/pull/270))
 - Update deps ([037ac74](https://github.com/kikiutils/changelogen/commit/037ac74))
 - **release:** V0.6.2 ([acdedaa](https://github.com/kikiutils/changelogen/commit/acdedaa))
 - Set correct git url in package.json ([dd7412b](https://github.com/kikiutils/changelogen/commit/dd7412b))
