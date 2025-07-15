@@ -4,7 +4,7 @@
   "description": "Generate Beautiful Changelogs using Conventional Commits",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kikiutils/changelogen.git"
+    "url": "git+https://github.com/kikiutils/changelogen.git"
   },
   "contributors": [
     {
