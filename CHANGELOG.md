@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.8.1
+
+[compare changes](https://github.com/kikiutils/changelogen/compare/v0.8.0...v0.8.1)
+
+### 🩹 Fixes
+
+- **cli:** Accept hideAuthorEmail arg ([#275](https://github.com/kikiutils/changelogen/pull/275))
+
+### 📖 Documentation
+
+- Add note about version number interpretation ([#272](https://github.com/kikiutils/changelogen/pull/272))
+
+### 🌊 Types
+
+- config.types accept boolean value ([#278](https://github.com/kikiutils/changelogen/pull/278))
+
+### 🏡 Chore
+
+- **readme:** Fix typo ([#270](https://github.com/kikiutils/changelogen/pull/270))
+- Update deps ([037ac74](https://github.com/kikiutils/changelogen/commit/037ac74))
+- **release:** V0.6.2 ([acdedaa](https://github.com/kikiutils/changelogen/commit/acdedaa))
+- Set correct git url in package.json ([dd7412b](https://github.com/kikiutils/changelogen/commit/dd7412b))
+- Set correct url in CHANGELOG ([25b5c50](https://github.com/kikiutils/changelogen/commit/25b5c50))
+
+### ❤️ Contributors
+
+- kiki-kanri
+- Pooya Parsa ([@pi0](https://github.com/pi0))
+- Philipp Kief ([@PKief](https://github.com/PKief))
+- Azat S. ([@azat-io](https://github.com/azat-io))
+- Adarsh DK
+- B. Jonson ([@who-jonson](https://github.com/who-jonson))
+
 ## v0.8.0
 
 [compare changes](https://github.com/kikiutils/changelogen/compare/v0.7.1...v0.8.0)
