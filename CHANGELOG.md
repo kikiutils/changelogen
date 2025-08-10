@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.9.0
+
+[compare changes](https://github.com/kikiutils/changelogen/compare/v0.8.1...v0.9.0)
+
+### 💅 Refactors
+
+- ⚠️ Revert version bump rule for major=0 to match original project ([92d114d](https://github.com/kikiutils/changelogen/commit/92d114d))
+
+### 🏡 Chore
+
+- Set correct url in CHANGELOG ([b74e135](https://github.com/kikiutils/changelogen/commit/b74e135))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Revert version bump rule for major=0 to match original project ([92d114d](https://github.com/kikiutils/changelogen/commit/92d114d))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v0.8.1
 
 [compare changes](https://github.com/kikiutils/changelogen/compare/v0.8.0...v0.8.1)
