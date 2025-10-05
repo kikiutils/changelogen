@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v0.9.1
+
+[compare changes](https://github.com/kikiutils/changelogen/compare/v0.9.0...v0.9.1)
+
+### 🩹 Fixes
+
+- Skip release commits ([#295](https://github.com/unjs/changelogen/pull/295))
+
+### 🏡 Chore
+
+- Update deps ([cc65baf](https://github.com/kikiutils/changelogen/commit/cc65baf))
+- Apply automated updates ([1d1fe85](https://github.com/kikiutils/changelogen/commit/1d1fe85))
+
+### 🤖 CI
+
+- Remove workflow files ([f243653](https://github.com/kikiutils/changelogen/commit/f243653))
+
+### ❤️ Contributors
+
+- kiki-kanri
+- Gaute Meek Olsen ([@gautemo](https://github.com/gautemo))
+- Pooya Parsa ([@pi0](https://github.com/pi0))
+
 ## v0.9.0
 
 [compare changes](https://github.com/kikiutils/changelogen/compare/v0.8.1...v0.9.0)
